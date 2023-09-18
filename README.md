@@ -202,7 +202,41 @@ Para recuperar el ultimo proceso que se esta ejecutando en segundo plano:
 fg
 ```
 
------------------------------------------------
+### Historial de Bash 
+
+#### Para repetir el ultimo comando utilizado
+
+```
+!!
+```
+> Ejemplo: sudo !!
+
+#### El comando anterior sin la última palabra
+```
+!*
+```
+
+#### La última palabra del comando anterior
+```
+!$  
+```
+
+#### Todos los parámetros del comando anterior
+```
+$*
+```
+>Ejemplo:
+>```
+>mkdir veryLongName
+>cd $*
+>```
+>
+
+#### Todos los parámetros del comando anterior como vector
+``` 
+$@
+```
+ -----------------------------------------------
 
 ## Ayuda sobre comandos
 
