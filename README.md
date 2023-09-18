@@ -202,4 +202,34 @@ Para recuperar el ultimo proceso que se esta ejecutando en segundo plano:
 fg
 ```
 
+-----------------------------------------------
+
+## Ayuda sobre comandos
+
+#### Mostrar un resumen de la funcion del comando xxxxx
+```
+whatis xxxxx
+```
+
+#### Mostrar la localización más probable para el programa xxxxxx
+```
+whereis xxxxx
+```
+
+#### Listar las páginas de manual que tratan acerca del comando xxxxx
+```
+apropos xxxxx
+```
+
+#### Mostrar el manual de uso o configuración del programa xxxxx
+```
+man xxxxx
+```
+
+#### Mostrar las páginas de manual que contengan la palabra xxxxx
+```
+man –k xxxxx
+```
+
+-----------------------------------------------
 
